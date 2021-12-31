@@ -29,5 +29,6 @@ public class FirstServlet extends javax.servlet.http.HttpServlet {
 
         PrintWriter pw = response.getWriter();
         pw.write("<h1> hello first符号 servlet!</h1>");
+        System.out.printlin("<h1> hello first符号 servlet!</h1>");
     }
 }
